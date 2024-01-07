@@ -8,7 +8,7 @@
       label = "u_mt";
       #binding-cells = <2>;
       tapping_term_ms = <U_TAPPING_TERM>;
-      flavor = "tap-preferred";
+      flavor = "balanced";
       bindings = <&kp>, <&kp>;
     };
     u_lt: u_lt {
@@ -16,10 +16,10 @@
       label = "u_lt";
       #binding-cells = <2>;
       tapping_term_ms = <U_TAPPING_TERM>;
-      flavor = "tap-preferred";
+      flavor = "balanced";
       bindings = <&mo>, <&kp>;
     };
-    lhm: homerow_mods_left {
+    u_lmt: homerow_mods_left {
       compatible = "zmk,behavior-hold-tap";
       label = "HOMEROW_MODS_LEFT";
       #binding-cells = <2>;
@@ -30,7 +30,7 @@
         hold-trigger-key-positions = MIRYOKU_HOME_MOD_RIGHT_POSITIONS ;
       #endif
     };
-    rhm: homerow_mods_right {
+    u_rmt: homerow_mods_right {
       compatible = "zmk,behavior-hold-tap";
       label = "HOMEROW_MODS_RIGHT";
       #binding-cells = <2>;

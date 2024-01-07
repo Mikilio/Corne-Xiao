@@ -4,16 +4,17 @@
 #pragma once
 
 #define U_MT(MOD, TAP) &u_mt MOD TAP
+
 #if defined(MIRYOKU_HOME_MOD_RIGHT_POSITIONS)
-#define LHM &lhm
+#define U_LMT(MOD, TAP) &u_lmt MOD TAP
 #else
-#define LHM &hm
+#define U_LMT(MOD, TAP) &u_mt MOD TAP
 #endif
 
 #if defined(MIRYOKU_HOME_MOD_LEFT_POSITIONS)
-#define RHM &rhm
+#define U_RMT(MOD, TAP) &u_rmt MOD TAP
 #else
-#define RHM &hm
+#define U_RMT(MOD, TAP) &u_mt MOD TAP
 #endif
 
 #define U_LT(LAYER, TAP) &u_lt LAYER TAP
