@@ -12,7 +12,7 @@
   MIRYOKU_X(GAME, "Game")                                                      \
   MIRYOKU_X(TAP, "Tap")                                                        \
   MIRYOKU_X(NAV, "Nav")                                                        \
-  MIRYOKU_X(MOUSE, "Mouse")                                                    \
+  MIRYOKU_X(PAD, "Pad")                                                        \
   MIRYOKU_X(MEDIA, "Media")                                                    \
   MIRYOKU_X(NUM, "Num")                                                        \
   MIRYOKU_X(SYM, "Sym")                                                        \
@@ -23,7 +23,7 @@
 #define U_GAME 2
 #define U_TAP 3
 #define U_NAV 4
-#define U_MOUSE 5
+#define U_PAD 5
 #define U_MEDIA 6
 #define U_NUM 7
 #define U_SYM 8
