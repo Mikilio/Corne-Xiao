@@ -191,43 +191,43 @@ U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp 
 &kp A,             &kp Z,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &kp Q,             &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             &kp L,             &kp M,             \
 &kp W,             &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp COMMA,         &kp DOT,           &kp SLASH,         &kp SQT,           \
-U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &tog U_TAP,         &kp  RET,          &kp BSPC,          &kp DEL,           U_NP,              U_NP
+U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &tog U_TAP,        &kp  RET,          &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_BEAKL15 \
 &kp Q,             &kp H,             &kp O,             &kp U,             &kp X,             &kp G,             &kp C,             &kp R,             &kp F,             &kp Z,             \
 &kp Y,             &kp I,             &kp E,             &kp A,             &kp DOT,           &kp D,             &kp S,             &kp T,             &kp N,             &kp B,             \
 &kp J,             &kp SLASH,         &kp COMMA,         &kp K,             &kp SQT,           &kp W,             &kp M,             &kp L,             &kp P,             &kp V,             \
-U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &tog U_TAP,         &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &tog U_TAP,        &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAK \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp G,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 &kp A,             &kp R,             &kp S,             &kp T,             &kp D,             &kp H,             &kp N,             &kp E,             &kp I,             &kp O,             \
 &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp K,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &tog U_TAP,         &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &tog U_TAP,        &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAKDH \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 &kp A,             &kp R,             &kp S,             &kp T,             &kp G,             &kp M,             &kp N,             &kp E,             &kp I,             &kp O,             \
 &kp Z,             &kp X,             &kp C,             &kp D,             &kp V,             &kp K,             &kp H,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &tog U_TAP,         &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &tog U_TAP,        &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAKDHK \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 &kp A,             &kp R,             &kp S,             &kp T,             &kp G,             &kp K,             &kp N,             &kp E,             &kp I,             &kp O,             \
 &kp Z,             &kp X,             &kp C,             &kp D,             &kp V,             &kp M,             &kp H,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &tog U_TAP,         &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &tog U_TAP,        &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_DVORAK \
 &kp SQT,           &kp COMMA,         &kp DOT,           &kp P,             &kp Y,             &kp F,             &kp G,             &kp C,             &kp R,             &kp L,             \
 &kp A,             &kp O,             &kp E,             &kp U,             &kp I,             &kp D,             &kp H,             &kp T,             &kp N,             &kp S,             \
 &kp SLASH,         &kp Q,             &kp J,             &kp K,             &kp X,             &kp B,             &kp M,             &kp W,             &kp V,             &kp Z,             \
-U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &tog U_TAP,         &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &tog U_TAP,        &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_HALMAK \
 &kp W,             &kp L,             &kp R,             &kp B,             &kp Z,             &kp SQT,           &kp Q,             &kp U,             &kp D,             &kp J,             \
 &kp S,             &kp H,             &kp N,             &kp T,             &kp COMMA,         &kp DOT,           &kp A,             &kp E,             &kp O,             &kp I,             \
 &kp F,             &kp M,             &kp V,             &kp C,             &kp SLASH,         &kp G,             &kp P,             &kp X,             &kp K,             &kp Y,             \
-U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &tog U_TAP,         &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &tog U_TAP,        &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_WORKMAN \
 &kp Q,             &kp D,             &kp R,             &kp W,             &kp B,             &kp J,             &kp F,             &kp U,             &kp P,             &kp SQT,           \
@@ -239,30 +239,30 @@ U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &tog
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &kp A,             &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
 &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &tog U_TAP,         &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &tog U_TAP,        &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_QWERTZ \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Z,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &kp A,             &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
 &kp Y,             &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &tog U_TAP,         &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &tog U_TAP,        &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NAV \
 &kp F13,           &kp F14,           &kp F15,           &kp F16,           &kp F17,           &kp F18,           &kp F19,           &kp F20,           &kp F21,           &kp F22,           \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         &u_caps_word,      &kp LC(B),	        &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         &kp F23,           &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 
 #define MIRYOKU_ALTERNATIVES_PAD \
-&kp F13,           &kp F14,           &kp F15,           &kp F16,           &kp F17,            &kp KP_DIVIDE,     &kp KP_N7,            &kp KP_N8,         &kp KP_N9,            &kp KP_MINUS,  \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         &u_caps_word,       &kp KP_MULTIPLY,   &kp KP_N4,            &kp KP_N5,         &kp KP_N6,            &kp KP_PLUS,   \
-U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,              &kp KP_CLEAR,      &kp KP_N1,            &kp KP_N2,         &kp KP_N3,            &kp KP_EQUAL,  \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,               &kp KP_ENTER,      &kp KP_N0,            &kp KP_DOT,        U_NP,              U_NP
+&kp F13,           &kp F14,           &kp F15,           &kp F16,           &kp F17,           &kp KP_DIVIDE,     &kp KP_N7,         &kp KP_N8,         &kp KP_N9,         &kp KP_MINUS,      \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         &kp F23,           &kp KP_MULTIPLY,   &kp KP_N4,         &kp KP_N5,         &kp KP_N6,         &kp KP_PLUS,       \
+U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             &kp KP_CLEAR,      &kp KP_N1,         &kp KP_N2,         &kp KP_N3,         &kp KP_EQUAL,      \
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp KP_ENTER,      &kp KP_N0,         &kp KP_DOT,        U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_MEDIA \
 &kp F13,           &kp F14,           &kp F15,           &kp F16,           &kp F17,           U_RGB_TOG,         U_RGB_EFF,         U_RGB_HUI,         U_RGB_SAI,         U_RGB_BRI,         \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         &u_caps_word,      U_EP_TOG,          &kp C_PREV,        &kp C_VOL_DN,      &kp C_VOL_UP,      &kp C_NEXT,        \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         &kp F23,           U_EP_TOG,          &kp C_PREV,        &kp C_VOL_DN,      &kp C_VOL_UP,      &kp C_NEXT,        \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             &u_out_tog,        &u_bt_sel_0,       &u_bt_sel_1,       &u_bt_sel_2,       &u_bt_sel_3,       \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp C_STOP,        &kp C_PP,          &kp C_MUTE,        U_NP,              U_NP
 
