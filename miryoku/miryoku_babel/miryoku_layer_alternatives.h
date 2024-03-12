@@ -251,7 +251,7 @@ U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &tog
 &kp F13,           &kp F14,           &kp F15,           &kp F16,           &kp F17,           &kp F18,           &kp F19,           &kp F20,           &kp F21,           &kp F22,           \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         &kp F23,           &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp SPACE,         &kp LBKT,          &kp RBKT,          U_NP,              U_NP
 
 
 #define MIRYOKU_ALTERNATIVES_PAD \
