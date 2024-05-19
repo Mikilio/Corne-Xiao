@@ -7,13 +7,20 @@
 #include "chipper.dtsi"
 
 &kscan0 {
+  diode-direction = "row2col";
 	col-gpios
-		= <&gpio0 10 GPIO_ACTIVE_HIGH>   //Col0
-		, <&gpio1 15 GPIO_ACTIVE_HIGH>   //Col1
-		, <&gpio1 14 GPIO_ACTIVE_HIGH>   //Col2
-		, <&gpio1 13 GPIO_ACTIVE_HIGH>   //Col3
-		, <&gpio1 12 GPIO_ACTIVE_HIGH>   //Col4
-		, <&gpio1 11 GPIO_ACTIVE_HIGH>   //Col5
+		= <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Col0
+		, <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Col1
+		, <&gpio1 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Col2
+		, <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Col3
+		, <&gpio1 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Col4
+		, <&gpio1 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Col5
 		;
+  row-gpios
+    = <&gpio0 2  GPIO_ACTIVE_HIGH>     //Row0
+    , <&gpio0 3  GPIO_ACTIVE_HIGH>     //Row1
+    , <&gpio0 28 GPIO_ACTIVE_HIGH>    //Row2
+    , <&gpio0 29 GPIO_ACTIVE_HIGH>    //Row3
+    ;
 };
 
